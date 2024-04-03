@@ -37,6 +37,12 @@ npm run start:dev
 localhost:3000\api\v2\seed
 ```
 
+## Running production
+
+```
+docker compose -f docker-compose.prod.yaml --env-file .env.prod -d
+```
+
 ## Stack usado
 
 - MongoDB
